@@ -2,9 +2,23 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>アプリケーション起動サンプル</title>
+		<title>DeepLink確認</title>
 	</head>
 	<body>
 		<a href="paypay://">起動するのみ</a>
+		<a href="paypay://user/addcreditcard">クレカ追加</a>
+		<a href="paypay://user/transactionhistory">利用明細</a>
+		<a href="paypay://user/linkedinstruments">支払い手段管理</a>
+		<a href="paypay://user/walletpassbook">残高履歴</a>
+		<a href="paypay://user/showcode">バーコード表示</a>
+		<a href="paypay://user/editprofile">プロフィール詳細</a>
+		<a href="paypay://signin">ログイン</a>
+		<a href="paypay://signup">新規登録</a>
+		<a href="paypay://scan">スキャン</a>
+		<a href="paypay://embed?url=https://yahoo.co.jp">WebView(アクションなし)</a>
+		<a href="paypay://embed?url=https://yahoo.co.jp&cta_text=%e3%83%81%e3%83%a3%e3%83%bc%e3%82%b8%e3%81%99%e3%82%8b&cta_deeplink=paypay://wallet/topup">WebView(アクションあり)</a>
+		<a href="paypay://wallet/topup">チャージ(金額なし)</a>
+		<a href="paypay://wallet/topup?amount=3333">チャージ(金額3333円指定)</a>
+		<a href="paypay://map">地図</a>
 	</body>
 </html>
